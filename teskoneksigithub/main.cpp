@@ -6,9 +6,15 @@
 //
 
 #include <iostream>
+#include "mathutils.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "ini adalah perubahan awal!\n";
+    int a = 5;
+    int b = 7;
+
+    int hasil = tambah(a, b);
+
+    std::cout << "Penjumlahan " << a << " + " << b << " = " << hasil << "\n";
+
     return EXIT_SUCCESS;
 }
