@@ -10,5 +10,6 @@
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "ini adalah perubahan awal!\n";
+    std::cout << "test ini lia yang ketik";
     return EXIT_SUCCESS;
 }
