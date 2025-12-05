@@ -6,11 +6,21 @@
 //
 
 #include <iostream>
-
+#include "math_utils.h"
 int main(int argc, const char * argv[]) {
-    // insert code here...
+    int a = 5;
+    int b = 7;
+
+    int hasil = tambah(a, b);
+
+    std::cout << "Penjumlahan " << a << " + " << b << " = " << hasil << "\n";
     std::cout << "ini adalah perubahan awal!\n";
-    std::cout << "test ini lia yang ketik";
-    std::cout << "test branch (lia)";
+
+    int hasil2 = kurang(a, b);
+    std::cout << "Pengurangan " << a << " - " << b << " = " << hasil2 << "\n";
+    std::cout << "ini adalah perubahan kedua! \n";
+
+
     return EXIT_SUCCESS;
 }
+
