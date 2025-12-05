@@ -15,7 +15,11 @@ int main(int argc, const char * argv[]) {
 
     std::cout << "Penjumlahan " << a << " + " << b << " = " << hasil << "\n";
     std::cout << "ini adalah perubahan awal!\n";
-    std::cout << "test ini lia yang ketik\n";
+
+    int hasil2 = kurang(a, b);
+    std::cout << "Pengurangan " << a << " - " << b << " = " << hasil2 << "\n";
+    std::cout << "ini adalah perubahan kedua! \n";
+
 
     return EXIT_SUCCESS;
 }
